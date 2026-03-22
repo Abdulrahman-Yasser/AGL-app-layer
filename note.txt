@@ -1,0 +1,26 @@
+    1  vim /etc/systemd/system/graphical.target.wants/agl-test-app.service 
+    2  systemctl status agl-test-app
+    3  systemctl enable agl-test-app
+    4  systemctl status agl-test-app
+    5  journalctl -u agl-compositor -b
+    6  ls /run/wayland-0 
+    7  ls /run/user/
+    8  User=agl-driver
+    9  id agl-driver
+   10  agl-compositor --no-daemon
+   11  weston --tty=1 --backend=drm-backend.so
+   12  agl-compositor --no-daemon &
+   13  s
+   14  ls
+   15  ss
+   16  export WAYLAND_DISPLAY=wayland-0
+   17  export XDG_RUNTIME_DIR=/run/user/1001/
+   18  flutter-auto -b /usr/share/flutter/agl_test_app/3.32.5/release
+   19  export WAYLAND_DISPLAY=wayland-0
+   20  export XDG_RUNTIME_DIR=/run
+   21  flutter-auto -b /usr/share/flutter/agl_test_app/3.32.5/release
+   22  WAYLAND_DEBUG=1 flutter-auto -b /usr/share/flutter/agl_test_app/3.32.5/release
+   23  flutter-auto -b /usr/share/flutter/agl_test_app/3.32.5/release -w 1920 -h 720
+   24  flutter-auto -b /usr/share/flutter/agl_test_app/3.32.5/release -w 1920 -h 720
+   25  flutter-auto -b /usr/share/flutter/agl_test_app/3.32.5/release -w 1920 -h 720 --fullscreen
+   26  history
