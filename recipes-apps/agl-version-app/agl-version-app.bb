@@ -1,6 +1,7 @@
 LICENSE = "CLOSED"
 SRC_URI = "git://github.com/Abdulrahman-Yasser/quiz_flutter_app.git;branch=master;protocol=https"
-SRCREV = "eae9afa854d875ba3406c6e077156b9c8eae9ea5"
+SRCREV = "38644012770112d22e8b1b03310fefba847dc1e9"
+
 S = "${WORKDIR}/git"
 
 PUBSPEC_APPNAME = "agl_version_app"
